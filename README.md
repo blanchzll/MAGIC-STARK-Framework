@@ -11,11 +11,6 @@ The framework integrates robust feature engineering, state-of-the-art hyperparam
 - **Advanced Validation**: Includes Delong test, Continuous Net Reclassification Improvement (Continuous NRI), Integrated Discrimination Improvement (IDI), and Expected Calibration Error (ECE) calculations via 1000-iteration Bootstrap resampling.
 - **Unmeasured Confounding Defense**: Implements E-Value analysis to assess the robustness of specific clinical variables (e.g., intraoperative albumin administration).
 
-## 📂 Repository Structure
-- `src/`: Contains core scripts for data preprocessing, model tuning, and ensemble training.
-- `notebooks/`: Jupyter notebooks demonstrating the generation of baseline tables, LLM benchmarking, and high-quality figures (Figure 3, Figure 4, Figure 7, Figure 8, Figure S6, Figure S7).
-- `rebuttal/`: Specific scripts addressing rigorous peer-review audits (e.g., Missingness Pattern Test, Error Mode Audit).
-
 ## 🛠️ Installation
 To install the required dependencies, please run:
 \`\`\`bash
